@@ -1,0 +1,79 @@
+body {
+    background-color: rgb(225, 225, 225);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+.name {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.my-showcase {
+    display: grid;
+    justify-content: center;
+    justify-items: center;
+    
+}
+
+.picture-of-me {
+    width: 300px;
+    height: 300px;
+    border-radius: 150px;
+}
+
+.further-info {
+    display: grid;
+    justify-content: space-between;
+    grid-template-columns: auto auto auto;
+    column-gap: 15px;
+    margin: 30px 225px 30px 225px;
+}
+
+.elevator-pitch-and-papers-showcase {
+    display: grid;
+    margin: 0px 225px 0px 225px;
+}
+
+.elevator-pitch {
+    font-style: italic;
+}
+
+.paragraph-title {
+    font-size: 23px;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.papers-showcase {
+    display: grid;  
+    grid-template-rows: auto auto auto auto;
+    row-gap: 30px;
+    align-items: stretch;
+}
+
+.papers-showcase-row {
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: space-between;
+    row-gap: 10px;
+    align-items: start;
+}
+
+.papers-showcase-column-name {
+    font-weight: bold;
+
+}
+
+.abstract-button {
+    cursor: pointer;
+}
+
+.abstract-text {
+    display: none;
+    padding: 10px;
+    background-color: rgb(235, 235, 235);
+    margin-top: 5px;
+}
