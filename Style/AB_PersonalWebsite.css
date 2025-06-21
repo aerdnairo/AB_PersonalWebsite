@@ -43,7 +43,7 @@ body {
 
 .elevator-pitch-row {
     display: grid;
-    grid-template-rows: auto;
+    grid-template-rows: 60px;
     row-gap: 30px;
     margin-bottom: 30px;
 }
