@@ -1,9 +1,9 @@
 function dropDown(id) {
-    const abstract = document.getElementById(''+id);
+    const dropDownText = document.getElementById(''+id);
 
-    if (abstract.style.display === 'none' || abstract.style.display === '') {
-      abstract.style.display = 'block';
+    if (dropDownText.style.display === 'none' || dropDownText.style.display === '') {
+      dropDownText.style.display = 'block';
     } else {
-      abstract.style.display = 'none';
+      dropDownText.style.display = 'none';
     }
   }

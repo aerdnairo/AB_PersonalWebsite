@@ -17,14 +17,25 @@
     </div>
     <div class="elevator-pitch-and-papers-showcase">
         <div class="elevator-pitch">
-            <p>Hello reader, <br>
-            I am Andrea Brigliadori, a current student of AI in Biomedicine at UCL, London. In this page, I present lines of research I would like to investigate, and some articles I have written. </p>
-            <p>Research interest: I am interested in pursuing research in computational neuroscience or computational biology. I would like to search AI-based solutions to existing problems,
-            with a particular focus on clinical applicability. My objective is to concretely contribute to the collective wellbeing through the knowledge acquired during my studies. </p>
-            <p>Two examples of research projects I find interesting:<br> 1.The High-Dimensional Neurology Group (UCL, Queen Square Institute of Neurology) builds models of brain disorders that fit into existing clinical processes, aiming to quickly turn their research into real-world medical tools.<br>
-            2. The project of Dr. Zitnik's lab (Harvard Medical School, Department of Biomedical Informatics) on contextually adaptive AI aims to improve algorithms so they can learn from less data and make sense of unseen situations such as unfamiliar patients, diseases, or cell types. </p>
-            <p>Topic of MSc thesis: Improving the clinical applicability of Spherical CNNs to dMRI by increasing their robustness to unseen scanner settings.</p>
-            <p>Topic of BSc thesis: Improving the biological reliability of statistical physics models for place cells.</p>
+            <p>Hello, my name is Andrea Brigliadori and I am a current student of AI in Biomedicine at UCL, London. In this page, I present lines of research I would like to investigate, and some articles I have written. </p>
+            <button class="dropdown-button" onclick=dropDown(13)>Research Interests</button>
+                    <div id="13", class="dropdown-text">
+                        <p>I am interested in pursuing research in computational neuroscience or computational biology. I would like to search AI-based solutions to existing problems,
+                        with a particular focus on clinical applicability. My objective is to concretely contribute to the collective wellbeing through the knowledge acquired during my studies.</p>
+                    </div>
+            <button class="dropdown-button" onclick=dropDown(12)>Examples: two interesting projects</button>
+                    <div id="12", class="dropdown-text">
+                        <p>1.The High-Dimensional Neurology Group (UCL, Queen Square Institute of Neurology) builds models of brain disorders that fit into existing clinical processes, aiming to quickly turn their research into real-world medical tools.<br>
+                        2. The project of Dr. Zitnik's lab (Harvard Medical School, Department of Biomedical Informatics) on contextually adaptive AI aims to improve algorithms so they can learn from less data and make sense of unseen situations such as unfamiliar patients, diseases, or cell types. </p>
+                    </div>
+            <button class="dropdown-button" onclick=dropDown(11)>Topic of MSc thesis</button>
+                    <div id="11", class="dropdown-text">
+                        <p>Improving the clinical applicability of Spherical CNNs to dMRI by increasing their robustness to unseen scanner settings.</p>
+                    </div>
+            <button class="dropdown-button" onclick=dropDown(10)>Topic of BSc thesis</button>
+                    <div id="10", class="dropdown-text">
+                        <p>Improving the biological reliability of statistical physics models for place cells.</p>
+            </div>
             
         </div>
         <div class="paragraph-title">Selected Articles</div>
@@ -36,8 +47,8 @@
             <div class="papers-showcase-row">
                 <div class="title-and-abstract">
                     <div class="paper-title">Quantification of Hepatic Iron Overload using MRI</div>
-                    <button class="abstract-button" onclick=dropDown(5)>Abstract</button>
-                    <div id="5", class="abstract-text">
+                    <button class="dropdown-button" onclick=dropDown(5)>Abstract</button>
+                    <div id="5", class="dropdown-text">
                         <p>This work focuses on quantifying iron overload in the liver from magnetic resonance images. Measuring
                         the amount of iron in the body is essential for the treatment of patients suffering from thalassemias, a
                         class of widespread genetic diseases compromising the production of red blood cells. Without frequent blood
@@ -57,8 +68,8 @@
             <div class="papers-showcase-row">
                 <div class="title-and-abstract">
                     <div class="paper-title">Machine Learning for Localising Proteins</div>
-                    <button class="abstract-button" onclick=dropDown(4)>Abstract</button>
-                    <div id="4", class="abstract-text">
+                    <button class="dropdown-button" onclick=dropDown(4)>Abstract</button>
+                    <div id="4", class="dropdown-text">
                         Function and subcellular environment of a protein are tightly related. Because of this, localising a protein
                         can be of great utility in investigating its purpose. This, in turn, is a critical step in obtaining insights that
                         can guide tailored drug design for a disease. Currently, one of the gold standards for conducting protein
@@ -75,8 +86,8 @@
             <div class="papers-showcase-row">
                 <div class="title-and-abstract">
                     <div class="paper-title">Building upon the Hopfield Model: the Statistical Physics of Place Cells</div>
-                    <button class="abstract-button" onclick=dropDown(3)>Abstract</button>
-                    <div id="3", class="abstract-text">
+                    <button class="dropdown-button" onclick=dropDown(3)>Abstract</button>
+                    <div id="3", class="dropdown-text">
                         The modelling of place cells within the framework of statistical physics is here studied. Neurons are represented as binary units that can be organized in different orders, each corresponding to a specific cognitive map. Clusters of closely situated active neurons form "activity bumps" within the map that is then indicated as the one recalled by the network. During transition phases, these bumps may shift from one map to another. The nature of these transitions allows for the classification into distinct phases: one-bump, two-bump, spin glass, and paramagnetic.
 
                         The instance of an earlier attractor neural network is further developed by incorporating bioinspired components, and is used for a comparative analysis of the results. Specifically, a Poisson process, theta waves and an evolving external stimulus are integrated into the model, yielding novel interesting outcomes.
@@ -87,8 +98,8 @@
             <div class="papers-showcase-row">
                 <div class="title-and-abstract">
                     <div class="paper-title">Protein-Aptamer Ranking Project</div>
-                    <button class="abstract-button" onclick=dropDown(2)>Abstract</button>
-                    <div id="2", class="abstract-text">
+                    <button class="dropdown-button" onclick=dropDown(2)>Abstract</button>
+                    <div id="2", class="dropdown-text">
                         Biosensors are becoming an increasingly popular method of detecting specific chemical substances via the combination of a biological component and modern technologies.
                         Protein react in a unique way to aptamers, so certain aptamers can be used on a biosensor to capture specific proteins. The crucial point is the binding affinity between a protein-aptamer pair, which can be measured with Kd values, where lower figures indicate better affinity. In a traditional lab setting, testing
                         the binding affinity between one protein and aptamer pair proves too costly in terms of both time and money. This is where machine learning comes in. Given protein-aptamer complexes as input, machine learning models are able to rank them in order of binding
@@ -100,8 +111,8 @@
             <div class="papers-showcase-row">
                 <div class="title-and-abstract">
                     <div class="paper-title">Image Reconstruction from fMRI Data</div>
-                    <button class="abstract-button" onclick=dropDown(1)>Abstract</button>
-                    <div id="1", class="abstract-text">
+                    <button class="dropdown-button" onclick=dropDown(1)>Abstract</button>
+                    <div id="1", class="dropdown-text">
                         This research aims to enhance the understanding
                         and visualization of brain activity in conditions
                         like Amyotrophic Lateral Sclerosis (ALS) and severe neurological damage, which impair cognitive and motor functions. By developing methods to decode fMRI signals, we plan to visualize thoughts
@@ -113,8 +124,8 @@
             <div class="papers-showcase-row">
                 <div class="title-and-abstract">
                     <div class="paper-title">AI Lab Project on Breast Cancer Cells</div>
-                    <button class="abstract-button" onclick=dropDown(0)>Abstract</button>
-                    <div id="0", class="abstract-text">
+                    <button class="dropdown-button" onclick=dropDown(0)>Abstract</button>
+                    <div id="0", class="dropdown-text">
                         If it is true that there are still several major milestones AI needs to overcome to reach human-level, on the other hand it has nowadays made its way into the biological field, demonstrating its worth through innovative procedures and playing a critical role in the context of life sciences and health. Not by chance, the cost of a human genome sequence dropped from an estimated 1 million dollars in 2007, to 1000 dollars in 2014, and today it is approximately $600, while the time needed for vaccine development decreased from nearly a hundred years at the beginning of the 20th century, to the few months that provided us with the COVID vaccine.
 
                         In this research, we will employ large datasets about gene expression of cancerous cells maintained in two different conditions, hypoxia or normoxia. The overall aim is being able to understand and analyse the data through the implementation of machine learning algorithm and visualization methods, extracting from them the most important notions.
