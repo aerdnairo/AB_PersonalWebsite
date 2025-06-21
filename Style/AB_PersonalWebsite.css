@@ -44,8 +44,8 @@ body {
 .elevator-pitch-row {
     display: grid;
     grid-template-rows: auto;
-    row-gap: 30px;
-    padding-bottom: 30px;
+    padding: 10px;
+    margin-top: 10px;
 }
 
 .paragraph-title {
