@@ -41,6 +41,12 @@ body {
     font-style: normal
 }
 
+.elevator-pitch-row {
+    display: grid;
+    grid-template-rows: auto;
+    row-gap: 30px;
+}
+
 .paragraph-title {
     font-size: 23px;
     font-weight: bold;
