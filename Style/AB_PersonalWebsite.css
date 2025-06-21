@@ -45,6 +45,7 @@ body {
     display: grid;
     grid-template-rows: auto;
     row-gap: 30px;
+    margin-bottom: 30px;
 }
 
 .paragraph-title {
