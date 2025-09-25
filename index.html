@@ -17,12 +17,12 @@
     </div>
     <div class="elevator-pitch-and-papers-showcase">
         <div class="elevator-pitch">
-            <p>Hello, my name is Andrea Brigliadori and I am a current student of AI in Biomedicine at UCL, London. In this page, I present lines of research I would like to investigate, and some articles I have written. </p>
+            <p>Hello, my name is Andrea Brigliadori and I have recently submitted my thesis for the MSc in AI for Biomedicine at UCL, London. In this page, I present lines of research I would like to investigate, and some articles I have written. </p>
                 <div class="elevator-pitch-row">
                     <div class="elevator-pitch-info">
                         <button class="dropdown-button" onclick=dropDown(13)>Research Interests</button>
                         <div id="13" class="dropdown-text">
-                            I am interested in pursuing research in computational neuroscience or computational biology. I would like to search AI-based solutions to existing problems,
+                            I am interested in pursuing research in computational neuroscience or neuroimaging. I would like to employ machine learning to advance the state-of-the-art
                             with a particular focus on clinical applicability. My objective is to concretely contribute to the collective wellbeing through the knowledge acquired during my studies.
                         </div>
                     </div>
@@ -31,8 +31,8 @@
                     <div class="elevator-pitch-info">
                         <button class="dropdown-button" onclick=dropDown(12)>Examples: two interesting projects</button>
                         <div id="12" class="dropdown-text">
-                            1.The High-Dimensional Neurology Group (UCL, Queen Square Institute of Neurology) builds models of brain disorders that fit into existing clinical processes, aiming to quickly turn their research into real-world medical tools.<br>
-                            2. The project of Dr. Zitnik's lab (Harvard Medical School, Department of Biomedical Informatics) on contextually adaptive AI aims to improve algorithms so they can learn from less data and make sense of unseen situations such as unfamiliar patients, diseases, or cell types.
+                            1.Professor Pawel Herman's project (KTH, School of Electrical Engineering and Computer Science) aims to develop mathematical models of the brain and use them for large-scale simulations of cortical memory function.<br>
+                            2.The DiCIPHR lab (University of Pennsylvania, Center for Biomedical Image Computing & Analytics) is proposing innovative solutions for quality assurance, harmonization, and analysis of diffusion MRI data, advancing clinical translation. 
                         </div>
                     </div>
                 </div>
@@ -40,7 +40,7 @@
                     <div class="elevator-pitch-info">
                         <button class="dropdown-button" onclick=dropDown(11)>Topic of MSc thesis</button>
                         <div id="11" class="dropdown-text">
-                            Improving the clinical applicability of Spherical CNNs to dMRI by increasing their robustness to unseen scanner settings.
+                            Improving the clinical applicability of Spherical CNNs for diffusion MRI by increasing their robustness to unseen scanner settings.
                         </div>
                     </div>   
                 </div>
@@ -59,6 +59,21 @@
             <div class="papers-showcase-row">
                 <p class="papers-showcase-column-name">Title</p>
                 <p class="papers-showcase-column-name">Date</p>
+            </div>
+            <div class="papers-showcase-row">
+                <div class="title-and-abstract">
+                    <div class="paper-title">Geometric Deep Learning for Generalisable
+Estimation of Microscopic Brain Tissue Properties
+Across MRI Acquisition Settings (MSc thesis)</div>
+                    <button class="dropdown-button" onclick=dropDown(6)>Abstract</button>
+                    <div id="5" class="dropdown-text">
+                        <p>This work focused on improving the ability of machine learning models to generalise across MRI scanner settings when estimating properties of brain microstructure. Microstructure refers to the tissue structure at the micrometre scale, and its properties are indicative of the health condition of the brain. The quantitative description of these properties can significantly accelerate the diagnosis of neurological disorders such as stroke and multiple sclerosis.
+Capturing information on brain microstructure non-invasively from living human beings has been made possible by an advanced magnetic resonance imaging technique known as diffusion-weighted MRI. Using two main scanner settings, known as b-vectors and b-values, this technique provides images that can be leveraged by computational models to estimate microstructural properties. 
+There is growing interest in obtaining these estimates using machine learning models, since they offer great efficiency advantages compared to traditional methods.
+However, these models typically do not generalise well to changes of the scanner settings, and this limitation is contributing to hamper their clinical utility. Recently, a geometric deep learning model known as spherical convolutional neural network (SCNN) has been shown to maintain its performance despite variations of the b-vectors. Nonetheless, the model provides no performance guarantees for b-values unseen during training. The aim of this project is to enhance the generalisability of SCNNs to new b-values. A novel SCNN architecture that accepts b-values as input is proposed and shown to improve performance on both seen and unseen b-values, although further hyperparameter tuning may be needed to obtain stronger evidence.
+                    </div>
+                </div>
+                <div class="paper-date">2025</div>
             </div>
             <div class="papers-showcase-row">
                 <div class="title-and-abstract">
@@ -101,7 +116,7 @@
             </div>
             <div class="papers-showcase-row">
                 <div class="title-and-abstract">
-                    <div class="paper-title">Building upon the Hopfield Model: the Statistical Physics of Place Cells</div>
+                    <div class="paper-title">Building upon the Hopfield Model: the Statistical Physics of Place Cells (BSc thesis)</div>
                     <button class="dropdown-button" onclick=dropDown(3)>Abstract</button>
                     <div id="3" class="dropdown-text">
                         The modelling of place cells within the framework of statistical physics is here studied. Neurons are represented as binary units that can be organized in different orders, each corresponding to a specific cognitive map. Clusters of closely situated active neurons form "activity bumps" within the map that is then indicated as the one recalled by the network. During transition phases, these bumps may shift from one map to another. The nature of these transitions allows for the classification into distinct phases: one-bump, two-bump, spin glass, and paramagnetic.
